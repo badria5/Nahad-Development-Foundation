@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family:"Cairo", sans-serif;
+      font-family:"Cairo", sans-serif;
 
 
 }
@@ -16,7 +16,7 @@ a{
 }
 /* Header Start */
 header{
-    height: 100vh;
+    height: 15vh;
 }
 #navbar{
     height: 110px;
@@ -63,41 +63,8 @@ header .content *{
     max-width: 1100px;
     margin: auto;
 }
-/* Header End */
-/*About start */
-#about{
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    line-height: 2.2;
-}
-#about .title,
-#memberships .title,
-#development .title{
-    text-align: center;
-    margin-bottom: 4rem;
-    margin-top: 0;
-}
-#about h2,
-#development h2,
-#memberships h2{
-    font-size: 40px;
-    color:rgb(20, 141, 141,1);
-    margin-bottom: 20px;
-}
-#about .title p{
-    font-size: 16px;
-    color: black;
-    font-weight: bold;
-}
-
-
-/*About End */
-/* membership*/
-#memberships{
-    height:100vh;
+#sections{
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,8 +73,8 @@ header .content *{
 }
 
 .cards {
-            display: flex;
-            gap: 10px;
+            display:block;
+            gap: 50px;
         }
         .card {
             background: white;
@@ -115,51 +82,35 @@ header .content *{
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             text-align: center;
-            width: 500px;
+            width: 1000px;
+            margin-bottom: 15px;
         }
         .card img {
-            width: 150px;
-            height: 100;
+            width: 270px;
+            height: 200;
             margin-bottom: 15px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
+            border-radius: 2px;
         }
         .card h3 {
             margin: 10px 0;
             font-size: 1.5em;
-            color: rgb(19, 33, 33);
+            color: rgb(245, 248, 248);
+        height: 50px;
+            background-color: rgb(20, 141, 141,1);;
         }
         .card p {
             color: #555;
-            line-height: 1.7;
         }
-/*Development*/
-#development{
-    height:80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    background-color:rgb(255, 255, 255);
- 
+    #sections .title{
+        text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    }
+    #sections h2{
+    font-size: 40px;
+    color:rgb(20, 141, 141,1);
+    margin-bottom: 20px;
 }
-.images {
-display: flex;
-gap: 20px;
-}
-.image{
-            padding: 20px;
-            text-align: center;
-            width: 200px;
-            height: 200px;
-}
-.image img {
-            width: 200px;
-            height: 200px;
-            margin-bottom: 15px;
-            
-        }
-/*Contact*/
 #contact{
     padding: 5rem 0;
     background-color: rgb(20, 141, 141,1);

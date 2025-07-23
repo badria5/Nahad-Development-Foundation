@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family:"Cairo", sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header Start */
+header{
+    height: 10vh;
+}
+#navbar{
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(20, 141, 141,1);
+    align-items:center ;
+}
+#navbar img{
+width: 70px;
+margin-right: 100px;
+border-radius: 50%;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 800px;
+}
+#navbar ul li a{
+padding: 15px 20px;
+color: white;
+font-weight: bolder;
+font-size: 17px;
+}
+#navbar ul li a :hover{
+border-bottom: 2px solid rgb(219, 211, 211);
+}
+#about{
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+#about .title{
+     text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
+#about h2{
+     font-size: 40px;
+    color:rgb(20, 141, 141,1);
+    margin-bottom: 20px;
+}
+#about .title p{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+#about .about-content{
+    display: flex;
+    justify-content:space-between;
+   
+
+}
+#about .about-content p{
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 7rem;
+    font-weight: 500;
+    line-height: 2.2;
+}
+h3{
+    margin-top: 20px;
+    color: rgb(20, 141, 141,1);
+}
+#about .about-content ul{
+    list-style-type: disc;
+}
+/*Contact*/
+#contact{
+    padding: 5rem 0;
+    background-color: rgb(20, 141, 141,1);
+}
+#contact .container{
+    max-width: 900px;
+}
+#contact .contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contact-info{
+    width: 60%;
+
+}
+#contact .contact-content .contact-info div{
+    margin: 10px 0;
+    line-height: 1.7;
+}
+#contact .contact-content  h3{
+    font-size: 28px;
+    color: rgb(238, 245, 245);
+    margin-bottom: 10px;
+}
+
+#contact .contact-content p{
+    color: rgb(238, 245, 245);
+    line-height: 2;
+}
+#contact .contact-content i{
+    color:white;
+    margin-left: 5px;
+}
+#contact .contact-content  a i{
+    color: white;
+   
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#contact .contact-content  a i:hover{
+    background:white;
+    color: rgb(20, 141, 141,1);
+}
+#contact .contact-info img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
