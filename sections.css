@@ -59,6 +59,22 @@ header .content{
 header .content *{
     z-index: 10;
 }
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+    #navbar,#contact{
+        background-color: black;
+       
+    }
+    #sections{
+        background-color: rgb(72, 75, 75);;
+    }
+}
 .container{
     max-width: 1100px;
     margin: auto;

@@ -5,8 +5,6 @@
 }
 body{
     font-family:"Cairo", sans-serif;
-
-
 }
 ul{
     list-style: none;
@@ -15,6 +13,23 @@ a{
     text-decoration: none;
 }
 /* Header Start */
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+    #navbar,#memberships,#about,#development,#contact{
+        background-color: black;
+       
+    }
+    #about .title p{
+        color: white;
+    }
+
+}
 header{
     height: 100vh;
 }
@@ -55,7 +70,12 @@ header .content{
     position: relative;
 
 }
-
+#toggle-button{
+    margin-left: 5px;
+    background-color:rgb(56, 68, 68); 
+    color: rgb(224, 233, 233); 
+    border-radius: 3px;
+}
 header .content *{
     z-index: 10;
 }

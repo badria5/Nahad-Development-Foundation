@@ -15,7 +15,7 @@ a{
 }
 /* Header Start */
 header{
-    height: 10vh;
+    height: 15vh;
 }
 #navbar{
     height: 110px;
@@ -41,6 +41,31 @@ font-size: 17px;
 }
 #navbar ul li a :hover{
 border-bottom: 2px solid rgb(219, 211, 211);
+}
+#toggle-button{
+    margin-left: 5px;
+    background-color:rgb(56, 68, 68); 
+    color: rgb(224, 233, 233); 
+    border-radius: 3px;
+}
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+    #navbar,#about,#contact{
+        background-color: black;
+    }
+    #about {
+        color: white;
+background-color: rgb(72, 75, 75);    }
+#about p{
+    color: white;
+}
+
 }
 #about{
     height: 130vh;
